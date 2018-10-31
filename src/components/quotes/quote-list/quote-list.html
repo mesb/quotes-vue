@@ -1,7 +1,4 @@
-
 <section class="quote-list">
-    <span v-for="quote in quotes">
-        <QuoteComponent :quote='quote'></QuoteComponent>
-    </span>
+    <QuoteComponent v-for="quote in quotes" :quote='quote'></QuoteComponent>
 </section>
 
